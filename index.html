@@ -20,23 +20,58 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-
     <!-- HEADER SECTION -->
     <div class="hero">
-            <header class="header">
-                <div class="logo">
-                    <img src="img/logo.png">
-                </div>
-                <nav class="main-nav">
-                    <a href="#">Become a Host</a>
-                    <a href="#">Help</a>
-                    <a href="#">Sign up</a>
-                    <a href="#">Log in</a>
-                </nav>
-            </header>
+      <header class="header">
+        <div class="logo">
+          <img src="img/logo.png" />
+        </div>
+        <nav class="main-nav">
+          <a href="#">Become a Host</a>
+          <a href="#">Help</a>
+          <a href="#">Sign up</a>
+          <a href="#">Log in</a>
+        </nav>
+      </header>
 
-    <!-- END HEADER SECTION -->
+      <!-- END HEADER SECTION -->
 
+      <!-- SEARCH FORM SECTION -->
+
+      <div class="container search-form-container">
+        <div class="search-form">
+          <h1>Book unique homes and experiences.</h1>
+
+          <form action="#">
+            <div class="field">
+              <label>Where</label>
+              <input type="text" placeholder="City" />
+            </div>
+            <div class="date">
+              <label>Check in</label>
+              <input type="date" />
+            </div>
+            <div class="date">
+              <label>Check Out</label>
+              <input type="date" />
+            </div>
+            <div class="field">
+              <label>Guests</label>
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+            <div class="submit">
+              <input type="submit" class="submitBtn" value="Search" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- END SEARCH FORM SECTION -->
 
     <script src="js/scripts.js"></script>
   </body>
